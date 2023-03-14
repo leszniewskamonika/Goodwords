@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    tools:context=".ui.gramma.PresentPerfectFragment">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Present Perfect"
+                android:textAlignment="center"
+                android:textSize="40sp"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/text_zastosowanie"
+                android:textSize="25sp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/text_presentperfect_zastosowanie"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/text_twierdzenia"
+                android:textSize="25sp"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nosoba + HAVE\\HAS + czasownik z ED \\ III tabela"
+                android:textColor="@color/colorTextHint"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n\tShe has broken her leg.\n"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/text_pytania"
+                android:textSize="25sp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nHAVE\\HAS + osoba + czasownik z ED \\ III tabela"
+                android:textColor="@color/colorTextHint"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n\tHas she broken her leg?\n\tYes, she has \\ No, she hasn't\n"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/text_przeczenia"
+                android:textSize="25sp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n\tosob + HAVEN'T \\ HASN'T + czasownik z ED \\ III tabela"
+                android:textColor="@color/colorTextHint"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n\tShe hasn't broken her leg.\n"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="FOR -> długość trwania czynności\n"
+                android:textSize="20sp"
+                android:textColor="@color/colorTextHint"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\tod 20 lat for 1 day\n"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="SINCE -> wskazuje początek czynności rozpoczęcia\n"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorTextHint"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\tod 1990 since yesterday\n"
+                android:textSize="20sp"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

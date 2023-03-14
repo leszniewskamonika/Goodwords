@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">Goodwords</string>
+
+    <string name="hint_name">Imię</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Hasło</string>
+    <string name="hint_confirm_password">Potwierdzenie hasła</string>
+
+    <string name="text_login">Zaloguj się</string>
+    <string name="text_register">Zarejestruj się</string>
+
+    <string name="error_message_name">Wprowadź pełne imię</string>
+    <string name="error_message_email">Wprowadź poprawny email</string>
+    <string name="error_message_password">Wprowadź hasło</string>
+
+    <string name="success_message">Pomyślnie zarejestrowano</string>
+
+    <string name="text_not_member">Nie masz jeszcze konta? Zarejestruj się</string>
+    <string name="text_already_member">Mam już konto? Zaloguj się</string>
+
+    <string name="error_email_exists">Podany emial już istnieje</string>
+    <string name="error_password_match">Podane hasło nie pasuje</string>
+    <string name="error_valid_email_password">Niepoprawny email lub hasło</string>
+
+
+    <string name="text_hello">Witaj użytkowniku </string>
+    <string name="text_title">Goodwords</string>
+    <string name="already_a_member_login">Masz już konto? Zaloguj się</string>
+
+    <string name="home">Home</string>
+    <string name="slow">Słowa</string>
+    <string name="e_fiszki">E-fiszki</string>
+    <string name="pisownia">Pisownia</string>
+    <string name="gramatyka">Gramatyka</string>
+
+    <string name="hint_ang">Znaczenie angielskie</string>
+    <string name="hint_pol">Znaczenie polskie</string>
+    <string name="text_add_word">Dodaj słowo</string>
+
+    <string name="error_message_ang">Wprowadź znaczenie angielskie</string>
+    <string name="error_message_pol">Wprowadź znaczenie polskie</string>
+
+    <string name="success_message_add">Pomyślnie dodano słowo</string>
+    <string name="error_word_exists">Podane słowo angielskie już istnieje</string>
+
+    <string name="text_check">Sprawdź</string>
+    <string name="error_message_good">Wpisane słowo jest poprawne</string>
+    <string name="error_message_bad">Wpisane słowo nie jest poprawne</string>
+
+
+    <!--Teksty do gramatyki/czasy -->
+    <string name="text_zastosowanie">Zastosowanie czasu</string>
+    <string name="text_twierdzenia">Zdania twierdzące</string>
+    <string name="text_pytania">Zdania pytające</string>
+    <string name="text_przeczenia">Zdania przeczące</string>
+
+    <!--Text zastosowanie Present Simple -->
+    <string name="text_presentsimple_zastosowanie">
+        \t* \tużywamy gdy mówimy o rutynowych czynnościach\n
+        \t* \tczynności powtarzające się\n
+        \t* \tharmonogramy\n
+        \t* \trozkłady jazdy/lotów\n
+        \t* \tstałe prawdy\n
+        \t* \tuczucia zmysłów\n
+    </string>
+
+    <!-- Text zastosowanie Present Continous -->
+    <string name="text_presentcontinous_zastosowanie">
+        \t* \tczas teraźniejszy\n
+        \t* \tczynności, które dzieją się teraz\n
+        \t* \tzaplanowana przyszłość\n
+        \t* \tdenerwujące nas "sytacje"\n
+    </string>
+    <string name="text_presentcontinous_bezing">
+        \twant\n
+        \tneed\n
+        \tbelive\n
+        \tprefer\n
+        \tbelong\n
+        \tunderstand\n
+        \tknow\n
+        \tconsist\n
+        \tlike\n
+        \tlove\n
+        \thate\n
+    </string>
+
+    <!--Text zastosowanie Present Perfect -->
+    <string name="text_presentperfect_zastosowanie">
+        \t* \tczynności z przeszłości bez podania daty\n
+        \t* \tczynności, które rozpoczeły się w przeszłości i trwają do teraz\n
+        \t* \tczynności, których skutek jest widoczny\n
+        \t* \tdoświadczenia życiowe\n
+    </string>
+
+
+    <!-- Text menu-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_word">Słowa</string>
+    <string name="menu_card">E-fiszki</string>
+    <string name="menu_compare">Pisownia</string>
+    <string name="menu_gramma">Gramatyka</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

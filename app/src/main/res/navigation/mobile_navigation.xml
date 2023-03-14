@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.monika.goodwords.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_card"
+            app:destination="@id/nav_card" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_compare"
+            app:destination="@id/nav_compare" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_gramma"
+            app:destination="@id/nav_gramma" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_word"
+            app:destination="@id/nav_word" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_card"
+        android:name="com.example.monika.goodwords.ui.card.CardFragment"
+        android:label="@string/menu_card"
+        tools:layout="@layout/fragment_card" >
+        <action
+            android:id="@+id/action_nav_card_to_familyCardActivity"
+            app:destination="@id/familyCardActivity" />
+        <action
+            android:id="@+id/action_nav_card_to_homeCardActivity"
+            app:destination="@id/homeCardActivity" />
+        <action
+            android:id="@+id/action_nav_card_to_uncategorizedCardActivity"
+            app:destination="@id/uncategorizedCardActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_compare"
+        android:name="com.example.monika.goodwords.ui.compare.CompareFragment"
+        android:label="@string/menu_compare"
+        tools:layout="@layout/fragment_compare" >
+        <action
+            android:id="@+id/action_nav_compare_to_nav_compare_pol_ang"
+            app:destination="@id/nav_compare_pol_ang" />
+        <action
+            android:id="@+id/action_nav_compare_to_nav_compare_ang_pol"
+            app:destination="@id/nav_compare_ang_pol" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_gramma"
+        android:name="com.example.monika.goodwords.ui.gramma.GrammaFragment"
+        android:label="@string/menu_gramma"
+        tools:layout="@layout/fragment_gramma" >
+        <action
+            android:id="@+id/action_nav_gramma_to_nav_gramma_present_simple"
+            app:destination="@id/nav_gramma_present_simple" />
+        <action
+            android:id="@+id/action_nav_gramma_to_presentContiuousFragment"
+            app:destination="@id/nav_gramma_present_continuous" />
+        <action
+            android:id="@+id/action_nav_gramma_to_presentPerfectFragment"
+            app:destination="@id/nav_gramma_present_perfect" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_gramma_present_simple"
+        android:name="com.example.monika.goodwords.ui.gramma.PresentSimpleFragment"
+        android:label="Present Simple"
+        tools:layout="@layout/fragment_present_simple" />
+    <fragment
+        android:id="@+id/nav_gramma_present_continuous"
+        android:name="com.example.monika.goodwords.ui.gramma.PresentContiuousFragment"
+        android:label="Present Continuous"
+        tools:layout="@layout/fragment_present_continuous" />
+    <fragment
+        android:id="@+id/nav_gramma_present_perfect"
+        android:name="com.example.monika.goodwords.ui.gramma.PresentPerfectFragment"
+        android:label="Present Perfect"
+        tools:layout="@layout/fragment_present_perfect" />
+    <fragment
+        android:id="@+id/nav_word"
+        android:name="com.example.monika.goodwords.ui.word.WordFragment"
+        android:label="@string/menu_word"
+        tools:layout="@layout/fragment_word" >
+        <action
+            android:id="@+id/action_nav_word_to_nav_search"
+            app:destination="@id/nav_word_search" />
+        <action
+            android:id="@+id/action_nav_word_to_nav_add"
+            app:destination="@id/nav_word_add" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_word_search"
+        android:name="com.example.monika.goodwords.ui.word.SearchFragment"
+        android:label="Przeglądanie słów"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_nav_word_search_to_familyListActivity"
+            app:destination="@id/familyListActivity" />
+        <action
+            android:id="@+id/action_nav_word_search_to_homeListActivity"
+            app:destination="@id/homeListActivity" />
+        <action
+            android:id="@+id/action_nav_word_search_to_uncategorizedListActivity"
+            app:destination="@id/uncategorizedListActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_word_add"
+        android:name="com.example.monika.goodwords.ui.word.AddFragment"
+        android:label="Dodawanie słów"
+        tools:layout="@layout/fragment_add" >
+        <action
+            android:id="@+id/action_nav_word_add_to_nav_word_add_family"
+            app:destination="@id/nav_word_add_family" />
+        <action
+            android:id="@+id/action_nav_word_add_to_addHomeFragment"
+            app:destination="@id/nav_word_add_home" />
+        <action
+            android:id="@+id/action_nav_word_add_to_addUncategorizedFragment"
+            app:destination="@id/nav_word_add_uncategorized" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_word_add_family"
+        android:name="com.example.monika.goodwords.ui.word.AddFamilyFragment"
+        android:label="Dodawanie słów - rodzina"
+        tools:layout="@layout/fragment_add_family" />
+    <fragment
+        android:id="@+id/nav_word_add_home"
+        android:name="com.example.monika.goodwords.ui.word.AddHomeFragment"
+        android:label="Dodawanie słów - dom"
+        tools:layout="@layout/fragment_add_home" />
+    <fragment
+        android:id="@+id/nav_word_add_uncategorized"
+        android:name="com.example.monika.goodwords.ui.word.AddUncategorizedFragment"
+        android:label="Dodawanie słów - bez kategorii"
+        tools:layout="@layout/fragment_add_uncategorized" />
+    <activity
+        android:id="@+id/familyListActivity"
+        android:name="com.example.monika.goodwords.ui.word.FamilyListActivity"
+        android:label="activity_family_list"
+        tools:layout="@layout/activity_family_list" />
+    <activity
+        android:id="@+id/uncategorizedListActivity"
+        android:name="com.example.monika.goodwords.ui.word.UncategorizedListActivity"
+        android:label="activity_uncategorized_list"
+        tools:layout="@layout/activity_uncategorized_list" />
+    <activity
+        android:id="@+id/homeListActivity"
+        android:name="com.example.monika.goodwords.ui.word.HomeListActivity"
+        android:label="activity_home_list"
+        tools:layout="@layout/activity_home_list" />
+    <activity
+        android:id="@+id/familyCardActivity"
+        android:name="com.example.monika.goodwords.ui.card.FamilyCardActivity"
+        android:label="activity_family_card"
+        tools:layout="@layout/activity_family_card" />
+    <activity
+        android:id="@+id/homeCardActivity"
+        android:name="com.example.monika.goodwords.ui.card.HomeCardActivity"
+        android:label="activity_home_card"
+        tools:layout="@layout/activity_home_card" />
+    <activity
+        android:id="@+id/uncategorizedCardActivity"
+        android:name="com.example.monika.goodwords.ui.card.UncategorizedCardActivity"
+        android:label="activity_uncategorized_card"
+        tools:layout="@layout/activity_uncategorized_card" />
+    <fragment
+        android:id="@+id/nav_compare_pol_ang"
+        android:name="com.example.monika.goodwords.ui.compare.Pol_AngFragment"
+        android:label="Pisownia - polski -> angielski"
+        tools:layout="@layout/fragment_pol__ang">
+        <action
+            android:id="@+id/action_nav_compare_pol_ang_to_familyPol_AngActivity"
+            app:destination="@id/familyPol_AngActivity" />
+        <action
+            android:id="@+id/action_nav_compare_pol_ang_to_homePol_AngActivity"
+            app:destination="@id/homePol_AngActivity" />
+        <action
+            android:id="@+id/action_nav_compare_pol_ang_to_uncategorizedPol_AngActivity"
+            app:destination="@id/uncategorizedPol_AngActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_compare_ang_pol"
+        android:name="com.example.monika.goodwords.ui.compare.Ang_PolFragment"
+        android:label="Pisownia - angielski -> polski"
+        tools:layout="@layout/fragment_ang__pol" >
+        <action
+            android:id="@+id/action_nav_compare_ang_pol_to_familyAng_PolActivity"
+            app:destination="@id/familyAng_PolActivity" />
+        <action
+            android:id="@+id/action_nav_compare_ang_pol_to_homeAng_PolActivity"
+            app:destination="@id/homeAng_PolActivity" />
+        <action
+            android:id="@+id/action_nav_compare_ang_pol_to_uncategorizedAng_PolActivity"
+            app:destination="@id/uncategorizedAng_PolActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/familyPol_AngActivity"
+        android:name="com.example.monika.goodwords.ui.compare.FamilyPol_AngActivity"
+        android:label="activity_family_pol_ang"
+        tools:layout="@layout/activity_family_pol_ang" />
+    <activity
+        android:id="@+id/homePol_AngActivity"
+        android:name="com.example.monika.goodwords.ui.compare.HomePol_AngActivity"
+        android:label="activity_home_pol_ang"
+        tools:layout="@layout/activity_home_pol_ang" />
+    <activity
+        android:id="@+id/uncategorizedPol_AngActivity"
+        android:name="com.example.monika.goodwords.ui.compare.UncategorizedPol_AngActivity"
+        android:label="activity_uncategorized_pol_ang"
+        tools:layout="@layout/activity_uncategorized_pol_ang" />
+    <activity
+        android:id="@+id/familyAng_PolActivity"
+        android:name="com.example.monika.goodwords.ui.compare.FamilyAng_PolActivity"
+        android:label="activity_family_ang_pol"
+        tools:layout="@layout/activity_family_ang_pol" />
+    <activity
+        android:id="@+id/homeAng_PolActivity"
+        android:name="com.example.monika.goodwords.ui.compare.HomeAng_PolActivity"
+        android:label="activity_home_ang_pol"
+        tools:layout="@layout/activity_home_ang_pol" />
+    <activity
+        android:id="@+id/uncategorizedAng_PolActivity"
+        android:name="com.example.monika.goodwords.ui.compare.UncategorizedAng_PolActivity"
+        android:label="activity_uncategorized_ang_pol"
+        tools:layout="@layout/activity_uncategorized_ang_pol" />
+</navigation>

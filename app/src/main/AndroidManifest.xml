@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.monika.goodwords">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icona1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:screenOrientation="sensor" />
+
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+
+        <activity
+            android:name=".ui.word.FamilyListActivity"
+            android:screenOrientation="sensor"/>
+        <activity
+            android:name=".ui.word.HomeListActivity"
+            android:screenOrientation="sensor"/>
+        <activity
+            android:name=".ui.word.UncategorizedListActivity"
+            android:screenOrientation="sensor"/>
+
+        <activity
+            android:name=".ui.card.FamilyCardActivity"
+            android:screenOrientation="sensor"/>
+        <activity
+            android:name=".ui.card.HomeCardActivity"
+            android:screenOrientation="sensor"/>
+        <activity
+            android:name=".ui.card.UncategorizedCardActivity"
+            android:screenOrientation="sensor"/>
+
+        <activity
+            android:name=".ui.compare.FamilyPol_AngActivity"
+            android:screenOrientation="sensor"/>
+        <activity
+            android:name=".ui.compare.HomePol_AngActivity"
+            android:screenOrientation="sensor"/>
+        <activity
+            android:name=".ui.compare.UncategorizedPol_AngActivity"
+            android:screenOrientation="sensor"/>
+
+        <activity
+            android:name=".ui.compare.FamilyAng_PolActivity"
+            android:screenOrientation="sensor"/>
+        <activity
+            android:name=".ui.compare.HomeAng_PolActivity"
+            android:screenOrientation="sensor"/>
+        <activity
+            android:name=".ui.compare.UncategorizedAng_PolActivity"
+            android:screenOrientation="sensor"/>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    tools:context=".ui.gramma.PresentContiuousFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Present Continuous"
+                android:textAlignment="center"
+                android:textSize="40sp"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/text_zastosowanie"
+                android:textSize="25sp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/text_presentcontinous_zastosowanie"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/text_twierdzenia"
+                android:textSize="25sp"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nosoba + odmiana to be + czasownik z ING"
+                android:textColor="@color/colorTextHint"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n\tShe is watching TV now.\n"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/text_pytania"
+                android:textSize="25sp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nodmiana to be + osoba + czasownik z ING"
+                android:textColor="@color/colorTextHint"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n\tIs she watching TV now?\n\tYes, she is\\ No, she isn't\n"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/text_przeczenia"
+                android:textSize="25sp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nosoba + to be + not + czasownik z ING"
+                android:textColor="@color/colorTextHint"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nShe isn't watching TV.\n"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Czasowniki nie występujące z ING w czasie Present Continuous"
+                android:textSize="25sp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/text_presentcontinous_bezing"
+                android:textSize="20sp"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</LinearLayout>
