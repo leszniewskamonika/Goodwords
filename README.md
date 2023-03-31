@@ -35,37 +35,51 @@ Wymaganie sprzętowe zapewniające parwidłowe działanie aplikacji:
 ## Funkcjonalności projektu
 <h3 align="center"> System rejestracji i logowania </h3> <br>
 
-![Rejestracja](./photo/rejestracja.png)
+<p align="center">
+  <img src = "./photo/rejestracja.png" width=350>
 
-![Logowanie](./photo/logowanie.png)
+  <img src = "./photo/logowanie.png" width=383>
+</p>
 
 <h3 align="center"> Menu nawigacyjne </h3> <br>
 
-![Menu](./photo/menu.png)
+<p align="center">
+<img src = "./photo/menu.png" width=170>
+</p>
 
 <h3 align="center"> System dodawania słów </h3> <br>
 
-![Dodawanie słów 1](./photo/dodawanie_slow_1.png)
+<p align="center">
+  <img src = "./photo/dodawanie_slow_1.png" width=350>
 
-![Dodawanie słów 2](./photo/dodawanie_slow_2.png)
+  <img src = "./photo/dodawanie_slow_2.png" width=480>
+</p>
 
 <h3 align="center"> System przeglądania bazy słownictwa </h3> <br>
 
-![Słowa](./photo/slowa.png)
+<p align="center">
+<img src = "./photo/słowa.png" width=170>
+</p>
 
 <h3 align="center"> System nauki słownictwa poprzez e-fiszki</h3> <br>
 
-![E-fiszki_1](./photo/e-fiszki_1.png)
+<p align="center">
+  <img src = "./photo/e-fiszki_1.png" width=350>
 
-![E-fiszki_2](./photo/e-fiszki_2.png)
+  <img src = "./photo/e-fiszki_2.png" width=365>
+</p>
 
 <h3 align="center">System nauki słownictwa poprzez porównywanie pisowni </h3> <br>
 
-![pisownia](./photo/pisowinia.png)
+<p align="center">
+<img src = "./photo/pisownia.png" width=350>
+</p>
 
 <h3 align="center">System nauki gramatyki </h3> <br>
 
-![Gramatyka](./photo/gramatyka.png)
+<p align="center">
+<img src = "./photo/gramatyka.png" width=350>
+</p>
 
 ## Szczegóły dotyczące realizacji
 W projekcie została stworzona nierelacyjna baza danych(NoSQL) zawierające następujące tabele:
