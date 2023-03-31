@@ -1,5 +1,6 @@
-# Goodwords
-> Projekt stworzony w ramach pracy inżynierskiej
+<p align="center">
+   <img src="./photo/v1.svg"> 
+</p>
 
 ## Spis treści
 * [Informacje ogólne](#informacje-ogólne)
@@ -32,6 +33,39 @@ Wymaganie sprzętowe zapewniające parwidłowe działanie aplikacji:
 - wymagana wersja Javy 1.8
 
 ## Funkcjonalności projektu
+<h3 align="center"> System rejestracji i logowania </h3> <br>
+
+![Rejestracja](./photo/rejestracja.png)
+
+![Logowanie](./photo/logowanie.png)
+
+<h3 align="center"> Menu nawigacyjne </h3> <br>
+
+![Menu](./photo/menu.png)
+
+<h3 align="center"> System dodawania słów </h3> <br>
+
+![Dodawanie słów 1](./photo/dodawanie_slow_1.png)
+
+![Dodawanie słów 2](./photo/dodawanie_slow_2.png)
+
+<h3 align="center"> System przeglądania bazy słownictwa </h3> <br>
+
+![Słowa](./photo/slowa.png)
+
+<h3 align="center"> System nauki słownictwa poprzez e-fiszki</h3> <br>
+
+![E-fiszki_1](./photo/e-fiszki_1.png)
+
+![E-fiszki_2](./photo/e-fiszki_2.png)
+
+<h3 align="center">System nauki słownictwa poprzez porównywanie pisowni </h3> <br>
+
+![pisownia](./photo/pisowinia.png)
+
+<h3 align="center">System nauki gramatyki </h3> <br>
+
+![Gramatyka](./photo/gramatyka.png)
 
 ## Szczegóły dotyczące realizacji
 W projekcie została stworzona nierelacyjna baza danych(NoSQL) zawierające następujące tabele:
